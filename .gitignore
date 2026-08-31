@@ -1,0 +1,21 @@
+# Interni podaci Fashion Company i materijali sa kursa - ne objavljuju se
+exceli/
+pravila/
+
+# prvobitni uzorak slika, nije koriscen za treniranje
+slike/
+
+# interni materijal za ucenje, ne objavljuje se
+PRIPREMA_ZA_ODBRANU.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
