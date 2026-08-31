@@ -1,0 +1,1296 @@
+{
+  "source": "Paleta Fashion Company boja.xlsx",
+  "families": [
+    "Black",
+    "White",
+    "Grey",
+    "Blue",
+    "Green",
+    "Red",
+    "Pink",
+    "Purple",
+    "Yellow",
+    "Orange",
+    "Brown",
+    "Neutral",
+    "Multicolor"
+  ],
+  "colors": [
+    {
+      "color_code": "01-001",
+      "color_name": "Black",
+      "family": "Black",
+      "family_code": 1,
+      "hex": "#000000",
+      "rgb": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "color_code": "01-002",
+      "color_name": "Deep Black",
+      "family": "Black",
+      "family_code": 1,
+      "hex": "#0A0A0A",
+      "rgb": {
+        "r": 10,
+        "g": 10,
+        "b": 10
+      }
+    },
+    {
+      "color_code": "01-003",
+      "color_name": "Washed Black",
+      "family": "Black",
+      "family_code": 1,
+      "hex": "#2B2B2B",
+      "rgb": {
+        "r": 43,
+        "g": 43,
+        "b": 43
+      }
+    },
+    {
+      "color_code": "01-004",
+      "color_name": "Charcoal",
+      "family": "Black",
+      "family_code": 1,
+      "hex": "#36454F",
+      "rgb": {
+        "r": 54,
+        "g": 69,
+        "b": 79
+      }
+    },
+    {
+      "color_code": "01-005",
+      "color_name": "Jet Black",
+      "family": "Black",
+      "family_code": 1,
+      "hex": "#0F0F0F",
+      "rgb": {
+        "r": 15,
+        "g": 15,
+        "b": 15
+      }
+    },
+    {
+      "color_code": "01-006",
+      "color_name": "Soft Black",
+      "family": "Black",
+      "family_code": 1,
+      "hex": "#1C1C1C",
+      "rgb": {
+        "r": 28,
+        "g": 28,
+        "b": 28
+      }
+    },
+    {
+      "color_code": "01-007",
+      "color_name": "Off Black",
+      "family": "Black",
+      "family_code": 1,
+      "hex": "#1A1A1A",
+      "rgb": {
+        "r": 26,
+        "g": 26,
+        "b": 26
+      }
+    },
+    {
+      "color_code": "01-008",
+      "color_name": "Vintage Black",
+      "family": "Black",
+      "family_code": 1,
+      "hex": "#3B3B3B",
+      "rgb": {
+        "r": 59,
+        "g": 59,
+        "b": 59
+      }
+    },
+    {
+      "color_code": "02-001",
+      "color_name": "White",
+      "family": "White",
+      "family_code": 2,
+      "hex": "#FFFFFF",
+      "rgb": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      }
+    },
+    {
+      "color_code": "02-002",
+      "color_name": "Off White",
+      "family": "White",
+      "family_code": 2,
+      "hex": "#F8F8F0",
+      "rgb": {
+        "r": 248,
+        "g": 248,
+        "b": 240
+      }
+    },
+    {
+      "color_code": "02-003",
+      "color_name": "Ivory",
+      "family": "White",
+      "family_code": 2,
+      "hex": "#FFFFF0",
+      "rgb": {
+        "r": 255,
+        "g": 255,
+        "b": 240
+      }
+    },
+    {
+      "color_code": "02-004",
+      "color_name": "Cream White",
+      "family": "White",
+      "family_code": 2,
+      "hex": "#FFFDD0",
+      "rgb": {
+        "r": 255,
+        "g": 253,
+        "b": 208
+      }
+    },
+    {
+      "color_code": "02-005",
+      "color_name": "Snow White",
+      "family": "White",
+      "family_code": 2,
+      "hex": "#FFFAFA",
+      "rgb": {
+        "r": 255,
+        "g": 250,
+        "b": 250
+      }
+    },
+    {
+      "color_code": "02-006",
+      "color_name": "Chalk",
+      "family": "White",
+      "family_code": 2,
+      "hex": "#F5F5F5",
+      "rgb": {
+        "r": 245,
+        "g": 245,
+        "b": 245
+      }
+    },
+    {
+      "color_code": "02-007",
+      "color_name": "Pearl White",
+      "family": "White",
+      "family_code": 2,
+      "hex": "#F0EAD6",
+      "rgb": {
+        "r": 240,
+        "g": 234,
+        "b": 214
+      }
+    },
+    {
+      "color_code": "03-001",
+      "color_name": "Light Grey",
+      "family": "Grey",
+      "family_code": 3,
+      "hex": "#D3D3D3",
+      "rgb": {
+        "r": 211,
+        "g": 211,
+        "b": 211
+      }
+    },
+    {
+      "color_code": "03-002",
+      "color_name": "Mid Grey",
+      "family": "Grey",
+      "family_code": 3,
+      "hex": "#A9A9A9",
+      "rgb": {
+        "r": 169,
+        "g": 169,
+        "b": 169
+      }
+    },
+    {
+      "color_code": "03-003",
+      "color_name": "Dark Grey",
+      "family": "Grey",
+      "family_code": 3,
+      "hex": "#696969",
+      "rgb": {
+        "r": 105,
+        "g": 105,
+        "b": 105
+      }
+    },
+    {
+      "color_code": "03-004",
+      "color_name": "Ash Grey",
+      "family": "Grey",
+      "family_code": 3,
+      "hex": "#B2BEB5",
+      "rgb": {
+        "r": 178,
+        "g": 190,
+        "b": 181
+      }
+    },
+    {
+      "color_code": "03-005",
+      "color_name": "Silver Grey",
+      "family": "Grey",
+      "family_code": 3,
+      "hex": "#C0C0C0",
+      "rgb": {
+        "r": 192,
+        "g": 192,
+        "b": 192
+      }
+    },
+    {
+      "color_code": "03-006",
+      "color_name": "Concrete",
+      "family": "Grey",
+      "family_code": 3,
+      "hex": "#9E9E9E",
+      "rgb": {
+        "r": 158,
+        "g": 158,
+        "b": 158
+      }
+    },
+    {
+      "color_code": "03-007",
+      "color_name": "Graphite",
+      "family": "Grey",
+      "family_code": 3,
+      "hex": "#383838",
+      "rgb": {
+        "r": 56,
+        "g": 56,
+        "b": 56
+      }
+    },
+    {
+      "color_code": "03-008",
+      "color_name": "Smoke",
+      "family": "Grey",
+      "family_code": 3,
+      "hex": "#708090",
+      "rgb": {
+        "r": 112,
+        "g": 128,
+        "b": 144
+      }
+    },
+    {
+      "color_code": "04-001",
+      "color_name": "Light Blue",
+      "family": "Blue",
+      "family_code": 4,
+      "hex": "#ADD8E6",
+      "rgb": {
+        "r": 173,
+        "g": 216,
+        "b": 230
+      }
+    },
+    {
+      "color_code": "04-002",
+      "color_name": "Sky Blue",
+      "family": "Blue",
+      "family_code": 4,
+      "hex": "#87CEEB",
+      "rgb": {
+        "r": 135,
+        "g": 206,
+        "b": 235
+      }
+    },
+    {
+      "color_code": "04-003",
+      "color_name": "Baby Blue",
+      "family": "Blue",
+      "family_code": 4,
+      "hex": "#BFEFFF",
+      "rgb": {
+        "r": 191,
+        "g": 239,
+        "b": 255
+      }
+    },
+    {
+      "color_code": "04-004",
+      "color_name": "Royal Blue",
+      "family": "Blue",
+      "family_code": 4,
+      "hex": "#4169E1",
+      "rgb": {
+        "r": 65,
+        "g": 105,
+        "b": 225
+      }
+    },
+    {
+      "color_code": "04-005",
+      "color_name": "Navy",
+      "family": "Blue",
+      "family_code": 4,
+      "hex": "#000080",
+      "rgb": {
+        "r": 0,
+        "g": 0,
+        "b": 128
+      }
+    },
+    {
+      "color_code": "04-006",
+      "color_name": "Dark Navy",
+      "family": "Blue",
+      "family_code": 4,
+      "hex": "#00004F",
+      "rgb": {
+        "r": 0,
+        "g": 0,
+        "b": 79
+      }
+    },
+    {
+      "color_code": "04-007",
+      "color_name": "Petrol Blue",
+      "family": "Blue",
+      "family_code": 4,
+      "hex": "#003B44",
+      "rgb": {
+        "r": 0,
+        "g": 59,
+        "b": 68
+      }
+    },
+    {
+      "color_code": "04-008",
+      "color_name": "Turquoise",
+      "family": "Blue",
+      "family_code": 4,
+      "hex": "#40E0D0",
+      "rgb": {
+        "r": 64,
+        "g": 224,
+        "b": 208
+      }
+    },
+    {
+      "color_code": "04-009",
+      "color_name": "Teal",
+      "family": "Blue",
+      "family_code": 4,
+      "hex": "#008080",
+      "rgb": {
+        "r": 0,
+        "g": 128,
+        "b": 128
+      }
+    },
+    {
+      "color_code": "04-010",
+      "color_name": "Denim Blue",
+      "family": "Blue",
+      "family_code": 4,
+      "hex": "#1560BD",
+      "rgb": {
+        "r": 21,
+        "g": 96,
+        "b": 189
+      }
+    },
+    {
+      "color_code": "04-011",
+      "color_name": "Ice Blue",
+      "family": "Blue",
+      "family_code": 4,
+      "hex": "#E0FFFF",
+      "rgb": {
+        "r": 224,
+        "g": 255,
+        "b": 255
+      }
+    },
+    {
+      "color_code": "04-012",
+      "color_name": "Steel Blue",
+      "family": "Blue",
+      "family_code": 4,
+      "hex": "#4682B4",
+      "rgb": {
+        "r": 70,
+        "g": 130,
+        "b": 180
+      }
+    },
+    {
+      "color_code": "05-001",
+      "color_name": "Mint",
+      "family": "Green",
+      "family_code": 5,
+      "hex": "#98FF98",
+      "rgb": {
+        "r": 152,
+        "g": 255,
+        "b": 152
+      }
+    },
+    {
+      "color_code": "05-002",
+      "color_name": "Sage",
+      "family": "Green",
+      "family_code": 5,
+      "hex": "#9CAF88",
+      "rgb": {
+        "r": 156,
+        "g": 175,
+        "b": 136
+      }
+    },
+    {
+      "color_code": "05-003",
+      "color_name": "Olive",
+      "family": "Green",
+      "family_code": 5,
+      "hex": "#808000",
+      "rgb": {
+        "r": 128,
+        "g": 128,
+        "b": 0
+      }
+    },
+    {
+      "color_code": "05-004",
+      "color_name": "Khaki Green",
+      "family": "Green",
+      "family_code": 5,
+      "hex": "#6B8E23",
+      "rgb": {
+        "r": 107,
+        "g": 142,
+        "b": 35
+      }
+    },
+    {
+      "color_code": "05-005",
+      "color_name": "Emerald",
+      "family": "Green",
+      "family_code": 5,
+      "hex": "#50C878",
+      "rgb": {
+        "r": 80,
+        "g": 200,
+        "b": 120
+      }
+    },
+    {
+      "color_code": "05-006",
+      "color_name": "Forest Green",
+      "family": "Green",
+      "family_code": 5,
+      "hex": "#228B22",
+      "rgb": {
+        "r": 34,
+        "g": 139,
+        "b": 34
+      }
+    },
+    {
+      "color_code": "05-007",
+      "color_name": "Lime",
+      "family": "Green",
+      "family_code": 5,
+      "hex": "#00FF00",
+      "rgb": {
+        "r": 0,
+        "g": 255,
+        "b": 0
+      }
+    },
+    {
+      "color_code": "05-008",
+      "color_name": "Dark Green",
+      "family": "Green",
+      "family_code": 5,
+      "hex": "#006400",
+      "rgb": {
+        "r": 0,
+        "g": 100,
+        "b": 0
+      }
+    },
+    {
+      "color_code": "05-009",
+      "color_name": "Army Green",
+      "family": "Green",
+      "family_code": 5,
+      "hex": "#4B5320",
+      "rgb": {
+        "r": 75,
+        "g": 83,
+        "b": 32
+      }
+    },
+    {
+      "color_code": "05-010",
+      "color_name": "Bottle Green",
+      "family": "Green",
+      "family_code": 5,
+      "hex": "#006A4E",
+      "rgb": {
+        "r": 0,
+        "g": 106,
+        "b": 78
+      }
+    },
+    {
+      "color_code": "06-001",
+      "color_name": "Red",
+      "family": "Red",
+      "family_code": 6,
+      "hex": "#FF0000",
+      "rgb": {
+        "r": 255,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "color_code": "06-002",
+      "color_name": "Bright Red",
+      "family": "Red",
+      "family_code": 6,
+      "hex": "#FF2400",
+      "rgb": {
+        "r": 255,
+        "g": 36,
+        "b": 0
+      }
+    },
+    {
+      "color_code": "06-003",
+      "color_name": "Dark Red",
+      "family": "Red",
+      "family_code": 6,
+      "hex": "#8B0000",
+      "rgb": {
+        "r": 139,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "color_code": "06-004",
+      "color_name": "Burgundy",
+      "family": "Red",
+      "family_code": 6,
+      "hex": "#800020",
+      "rgb": {
+        "r": 128,
+        "g": 0,
+        "b": 32
+      }
+    },
+    {
+      "color_code": "06-005",
+      "color_name": "Wine",
+      "family": "Red",
+      "family_code": 6,
+      "hex": "#722F37",
+      "rgb": {
+        "r": 114,
+        "g": 47,
+        "b": 55
+      }
+    },
+    {
+      "color_code": "06-006",
+      "color_name": "Cherry",
+      "family": "Red",
+      "family_code": 6,
+      "hex": "#DE3163",
+      "rgb": {
+        "r": 222,
+        "g": 49,
+        "b": 99
+      }
+    },
+    {
+      "color_code": "06-007",
+      "color_name": "Coral Red",
+      "family": "Red",
+      "family_code": 6,
+      "hex": "#FF4040",
+      "rgb": {
+        "r": 255,
+        "g": 64,
+        "b": 64
+      }
+    },
+    {
+      "color_code": "06-008",
+      "color_name": "Rust",
+      "family": "Red",
+      "family_code": 6,
+      "hex": "#B7410E",
+      "rgb": {
+        "r": 183,
+        "g": 65,
+        "b": 14
+      }
+    },
+    {
+      "color_code": "06-009",
+      "color_name": "Brick Red",
+      "family": "Red",
+      "family_code": 6,
+      "hex": "#CB4154",
+      "rgb": {
+        "r": 203,
+        "g": 65,
+        "b": 84
+      }
+    },
+    {
+      "color_code": "07-001",
+      "color_name": "Light Pink",
+      "family": "Pink",
+      "family_code": 7,
+      "hex": "#FFB6C1",
+      "rgb": {
+        "r": 255,
+        "g": 182,
+        "b": 193
+      }
+    },
+    {
+      "color_code": "07-002",
+      "color_name": "Baby Pink",
+      "family": "Pink",
+      "family_code": 7,
+      "hex": "#F4C2C2",
+      "rgb": {
+        "r": 244,
+        "g": 194,
+        "b": 194
+      }
+    },
+    {
+      "color_code": "07-003",
+      "color_name": "Fuchsia",
+      "family": "Pink",
+      "family_code": 7,
+      "hex": "#FF00FF",
+      "rgb": {
+        "r": 255,
+        "g": 0,
+        "b": 255
+      }
+    },
+    {
+      "color_code": "07-004",
+      "color_name": "Hot Pink",
+      "family": "Pink",
+      "family_code": 7,
+      "hex": "#FF69B4",
+      "rgb": {
+        "r": 255,
+        "g": 105,
+        "b": 180
+      }
+    },
+    {
+      "color_code": "07-005",
+      "color_name": "Blush",
+      "family": "Pink",
+      "family_code": 7,
+      "hex": "#DE5D83",
+      "rgb": {
+        "r": 222,
+        "g": 93,
+        "b": 131
+      }
+    },
+    {
+      "color_code": "07-006",
+      "color_name": "Rose",
+      "family": "Pink",
+      "family_code": 7,
+      "hex": "#FF007F",
+      "rgb": {
+        "r": 255,
+        "g": 0,
+        "b": 127
+      }
+    },
+    {
+      "color_code": "07-007",
+      "color_name": "Dusty Pink",
+      "family": "Pink",
+      "family_code": 7,
+      "hex": "#D8A7B1",
+      "rgb": {
+        "r": 216,
+        "g": 167,
+        "b": 177
+      }
+    },
+    {
+      "color_code": "07-008",
+      "color_name": "Salmon",
+      "family": "Pink",
+      "family_code": 7,
+      "hex": "#FA8072",
+      "rgb": {
+        "r": 250,
+        "g": 128,
+        "b": 114
+      }
+    },
+    {
+      "color_code": "08-001",
+      "color_name": "Lavender",
+      "family": "Purple",
+      "family_code": 8,
+      "hex": "#E6E6FA",
+      "rgb": {
+        "r": 230,
+        "g": 230,
+        "b": 250
+      }
+    },
+    {
+      "color_code": "08-002",
+      "color_name": "Lilac",
+      "family": "Purple",
+      "family_code": 8,
+      "hex": "#C8A2C8",
+      "rgb": {
+        "r": 200,
+        "g": 162,
+        "b": 200
+      }
+    },
+    {
+      "color_code": "08-003",
+      "color_name": "Violet",
+      "family": "Purple",
+      "family_code": 8,
+      "hex": "#8F00FF",
+      "rgb": {
+        "r": 143,
+        "g": 0,
+        "b": 255
+      }
+    },
+    {
+      "color_code": "08-004",
+      "color_name": "Plum",
+      "family": "Purple",
+      "family_code": 8,
+      "hex": "#8E4585",
+      "rgb": {
+        "r": 142,
+        "g": 69,
+        "b": 133
+      }
+    },
+    {
+      "color_code": "08-005",
+      "color_name": "Aubergine",
+      "family": "Purple",
+      "family_code": 8,
+      "hex": "#580F41",
+      "rgb": {
+        "r": 88,
+        "g": 15,
+        "b": 65
+      }
+    },
+    {
+      "color_code": "08-006",
+      "color_name": "Mauve",
+      "family": "Purple",
+      "family_code": 8,
+      "hex": "#E0B0FF",
+      "rgb": {
+        "r": 224,
+        "g": 176,
+        "b": 255
+      }
+    },
+    {
+      "color_code": "08-007",
+      "color_name": "Deep Purple",
+      "family": "Purple",
+      "family_code": 8,
+      "hex": "#4B0082",
+      "rgb": {
+        "r": 75,
+        "g": 0,
+        "b": 130
+      }
+    },
+    {
+      "color_code": "09-001",
+      "color_name": "Yellow",
+      "family": "Yellow",
+      "family_code": 9,
+      "hex": "#FFFF00",
+      "rgb": {
+        "r": 255,
+        "g": 255,
+        "b": 0
+      }
+    },
+    {
+      "color_code": "09-002",
+      "color_name": "Mustard",
+      "family": "Yellow",
+      "family_code": 9,
+      "hex": "#FFDB58",
+      "rgb": {
+        "r": 255,
+        "g": 219,
+        "b": 88
+      }
+    },
+    {
+      "color_code": "09-003",
+      "color_name": "Lemon",
+      "family": "Yellow",
+      "family_code": 9,
+      "hex": "#FFF44F",
+      "rgb": {
+        "r": 255,
+        "g": 244,
+        "b": 79
+      }
+    },
+    {
+      "color_code": "09-004",
+      "color_name": "Gold Yellow",
+      "family": "Yellow",
+      "family_code": 9,
+      "hex": "#FFD700",
+      "rgb": {
+        "r": 255,
+        "g": 215,
+        "b": 0
+      }
+    },
+    {
+      "color_code": "09-005",
+      "color_name": "Neon Yellow",
+      "family": "Yellow",
+      "family_code": 9,
+      "hex": "#CCFF00",
+      "rgb": {
+        "r": 204,
+        "g": 255,
+        "b": 0
+      }
+    },
+    {
+      "color_code": "09-006",
+      "color_name": "Pastel Yellow",
+      "family": "Yellow",
+      "family_code": 9,
+      "hex": "#FDFD96",
+      "rgb": {
+        "r": 253,
+        "g": 253,
+        "b": 150
+      }
+    },
+    {
+      "color_code": "10-001",
+      "color_name": "Orange",
+      "family": "Orange",
+      "family_code": 10,
+      "hex": "#FFA500",
+      "rgb": {
+        "r": 255,
+        "g": 165,
+        "b": 0
+      }
+    },
+    {
+      "color_code": "10-002",
+      "color_name": "Burnt Orange",
+      "family": "Orange",
+      "family_code": 10,
+      "hex": "#CC5500",
+      "rgb": {
+        "r": 204,
+        "g": 85,
+        "b": 0
+      }
+    },
+    {
+      "color_code": "10-003",
+      "color_name": "Peach",
+      "family": "Orange",
+      "family_code": 10,
+      "hex": "#FFE5B4",
+      "rgb": {
+        "r": 255,
+        "g": 229,
+        "b": 180
+      }
+    },
+    {
+      "color_code": "10-004",
+      "color_name": "Apricot",
+      "family": "Orange",
+      "family_code": 10,
+      "hex": "#FBCEB1",
+      "rgb": {
+        "r": 251,
+        "g": 206,
+        "b": 177
+      }
+    },
+    {
+      "color_code": "10-005",
+      "color_name": "Terracotta",
+      "family": "Orange",
+      "family_code": 10,
+      "hex": "#E2725B",
+      "rgb": {
+        "r": 226,
+        "g": 114,
+        "b": 91
+      }
+    },
+    {
+      "color_code": "10-006",
+      "color_name": "Neon Orange",
+      "family": "Orange",
+      "family_code": 10,
+      "hex": "#FF5F1F",
+      "rgb": {
+        "r": 255,
+        "g": 95,
+        "b": 31
+      }
+    },
+    {
+      "color_code": "11-001",
+      "color_name": "Brown",
+      "family": "Brown",
+      "family_code": 11,
+      "hex": "#8B4513",
+      "rgb": {
+        "r": 139,
+        "g": 69,
+        "b": 19
+      }
+    },
+    {
+      "color_code": "11-002",
+      "color_name": "Dark Brown",
+      "family": "Brown",
+      "family_code": 11,
+      "hex": "#654321",
+      "rgb": {
+        "r": 101,
+        "g": 67,
+        "b": 33
+      }
+    },
+    {
+      "color_code": "11-003",
+      "color_name": "Chocolate",
+      "family": "Brown",
+      "family_code": 11,
+      "hex": "#7B3F00",
+      "rgb": {
+        "r": 123,
+        "g": 63,
+        "b": 0
+      }
+    },
+    {
+      "color_code": "11-004",
+      "color_name": "Mocha",
+      "family": "Brown",
+      "family_code": 11,
+      "hex": "#967969",
+      "rgb": {
+        "r": 150,
+        "g": 121,
+        "b": 105
+      }
+    },
+    {
+      "color_code": "11-005",
+      "color_name": "Camel",
+      "family": "Brown",
+      "family_code": 11,
+      "hex": "#C19A6B",
+      "rgb": {
+        "r": 193,
+        "g": 154,
+        "b": 107
+      }
+    },
+    {
+      "color_code": "11-006",
+      "color_name": "Cognac",
+      "family": "Brown",
+      "family_code": 11,
+      "hex": "#9A463D",
+      "rgb": {
+        "r": 154,
+        "g": 70,
+        "b": 61
+      }
+    },
+    {
+      "color_code": "11-007",
+      "color_name": "Chestnut",
+      "family": "Brown",
+      "family_code": 11,
+      "hex": "#954535",
+      "rgb": {
+        "r": 149,
+        "g": 69,
+        "b": 53
+      }
+    },
+    {
+      "color_code": "11-008",
+      "color_name": "Tan",
+      "family": "Brown",
+      "family_code": 11,
+      "hex": "#D2B48C",
+      "rgb": {
+        "r": 210,
+        "g": 180,
+        "b": 140
+      }
+    },
+    {
+      "color_code": "11-009",
+      "color_name": "Sand Brown",
+      "family": "Brown",
+      "family_code": 11,
+      "hex": "#C2B280",
+      "rgb": {
+        "r": 194,
+        "g": 178,
+        "b": 128
+      }
+    },
+    {
+      "color_code": "12-001",
+      "color_name": "Beige",
+      "family": "Neutral",
+      "family_code": 12,
+      "hex": "#F5F5DC",
+      "rgb": {
+        "r": 245,
+        "g": 245,
+        "b": 220
+      }
+    },
+    {
+      "color_code": "12-002",
+      "color_name": "Nude",
+      "family": "Neutral",
+      "family_code": 12,
+      "hex": "#E3BC9A",
+      "rgb": {
+        "r": 227,
+        "g": 188,
+        "b": 154
+      }
+    },
+    {
+      "color_code": "12-003",
+      "color_name": "Taupe",
+      "family": "Neutral",
+      "family_code": 12,
+      "hex": "#483C32",
+      "rgb": {
+        "r": 72,
+        "g": 60,
+        "b": 50
+      }
+    },
+    {
+      "color_code": "12-004",
+      "color_name": "Stone",
+      "family": "Neutral",
+      "family_code": 12,
+      "hex": "#928E85",
+      "rgb": {
+        "r": 146,
+        "g": 142,
+        "b": 133
+      }
+    },
+    {
+      "color_code": "12-005",
+      "color_name": "Off Beige",
+      "family": "Neutral",
+      "family_code": 12,
+      "hex": "#EDE6D6",
+      "rgb": {
+        "r": 237,
+        "g": 230,
+        "b": 214
+      }
+    },
+    {
+      "color_code": "13-002",
+      "color_name": "Multicolor Two",
+      "family": "Multicolor",
+      "family_code": 13,
+      "hex": "#000000",
+      "rgb": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "color_code": "13-003",
+      "color_name": "Multicolor Three",
+      "family": "Multicolor",
+      "family_code": 13,
+      "hex": "#000000",
+      "rgb": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "color_code": "13-999",
+      "color_name": "Printed Multicolor",
+      "family": "Multicolor",
+      "family_code": 13,
+      "hex": "#000000",
+      "rgb": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    }
+  ],
+  "name_to_family": {
+    "Black": "Black",
+    "Deep Black": "Black",
+    "Washed Black": "Black",
+    "Charcoal": "Black",
+    "Jet Black": "Black",
+    "Soft Black": "Black",
+    "Off Black": "Black",
+    "Vintage Black": "Black",
+    "White": "White",
+    "Off White": "White",
+    "Ivory": "White",
+    "Cream White": "White",
+    "Snow White": "White",
+    "Chalk": "White",
+    "Pearl White": "White",
+    "Light Grey": "Grey",
+    "Mid Grey": "Grey",
+    "Dark Grey": "Grey",
+    "Ash Grey": "Grey",
+    "Silver Grey": "Grey",
+    "Concrete": "Grey",
+    "Graphite": "Grey",
+    "Smoke": "Grey",
+    "Light Blue": "Blue",
+    "Sky Blue": "Blue",
+    "Baby Blue": "Blue",
+    "Royal Blue": "Blue",
+    "Navy": "Blue",
+    "Dark Navy": "Blue",
+    "Petrol Blue": "Blue",
+    "Turquoise": "Blue",
+    "Teal": "Blue",
+    "Denim Blue": "Blue",
+    "Ice Blue": "Blue",
+    "Steel Blue": "Blue",
+    "Mint": "Green",
+    "Sage": "Green",
+    "Olive": "Green",
+    "Khaki Green": "Green",
+    "Emerald": "Green",
+    "Forest Green": "Green",
+    "Lime": "Green",
+    "Dark Green": "Green",
+    "Army Green": "Green",
+    "Bottle Green": "Green",
+    "Red": "Red",
+    "Bright Red": "Red",
+    "Dark Red": "Red",
+    "Burgundy": "Red",
+    "Wine": "Red",
+    "Cherry": "Red",
+    "Coral Red": "Red",
+    "Rust": "Red",
+    "Brick Red": "Red",
+    "Light Pink": "Pink",
+    "Baby Pink": "Pink",
+    "Fuchsia": "Pink",
+    "Hot Pink": "Pink",
+    "Blush": "Pink",
+    "Rose": "Pink",
+    "Dusty Pink": "Pink",
+    "Salmon": "Pink",
+    "Lavender": "Purple",
+    "Lilac": "Purple",
+    "Violet": "Purple",
+    "Plum": "Purple",
+    "Aubergine": "Purple",
+    "Mauve": "Purple",
+    "Deep Purple": "Purple",
+    "Yellow": "Yellow",
+    "Mustard": "Yellow",
+    "Lemon": "Yellow",
+    "Gold Yellow": "Yellow",
+    "Neon Yellow": "Yellow",
+    "Pastel Yellow": "Yellow",
+    "Orange": "Orange",
+    "Burnt Orange": "Orange",
+    "Peach": "Orange",
+    "Apricot": "Orange",
+    "Terracotta": "Orange",
+    "Neon Orange": "Orange",
+    "Brown": "Brown",
+    "Dark Brown": "Brown",
+    "Chocolate": "Brown",
+    "Mocha": "Brown",
+    "Camel": "Brown",
+    "Cognac": "Brown",
+    "Chestnut": "Brown",
+    "Tan": "Brown",
+    "Sand Brown": "Brown",
+    "Beige": "Neutral",
+    "Nude": "Neutral",
+    "Taupe": "Neutral",
+    "Stone": "Neutral",
+    "Off Beige": "Neutral",
+    "Multicolor Two": "Multicolor",
+    "Multicolor Three": "Multicolor",
+    "Printed Multicolor": "Multicolor"
+  }
+}

@@ -1,0 +1,671 @@
+{
+  "source": "Item Tree.xlsx",
+  "language": "en",
+  "divisions": [
+    "Apparel",
+    "Footware",
+    "Accesories"
+  ],
+  "categories": [
+    "Outerwear",
+    "T-shirt",
+    "Tops",
+    "Bottoms",
+    "Dresses",
+    "Suits & Sets",
+    "Sleepwear",
+    "Underwear",
+    "Swimwear",
+    "Sneakers",
+    "Boots",
+    "Court shoes",
+    "Sandals",
+    "Slippers",
+    "Shoes",
+    "Bags",
+    "Small Leather Goods",
+    "Belts",
+    "Soft Accessories",
+    "Sunglasses",
+    "Jewelry",
+    "Watches",
+    "Ties & Bowties",
+    "Fragrance",
+    "Other Accessories"
+  ],
+  "pairs": [
+    {
+      "division": "Apparel",
+      "category": "Outerwear",
+      "subcategory": "Jacket"
+    },
+    {
+      "division": "Apparel",
+      "category": "Outerwear",
+      "subcategory": "Leather Jacket"
+    },
+    {
+      "division": "Apparel",
+      "category": "Outerwear",
+      "subcategory": "Coat"
+    },
+    {
+      "division": "Apparel",
+      "category": "Outerwear",
+      "subcategory": "Fur Coat"
+    },
+    {
+      "division": "Apparel",
+      "category": "Outerwear",
+      "subcategory": "Cape"
+    },
+    {
+      "division": "Apparel",
+      "category": "Outerwear",
+      "subcategory": "Parka"
+    },
+    {
+      "division": "Apparel",
+      "category": "Outerwear",
+      "subcategory": "Vest"
+    },
+    {
+      "division": "Apparel",
+      "category": "Outerwear",
+      "subcategory": "Blazer"
+    },
+    {
+      "division": "Apparel",
+      "category": "Outerwear",
+      "subcategory": "Trench coat"
+    },
+    {
+      "division": "Apparel",
+      "category": "Outerwear",
+      "subcategory": "Poncho"
+    },
+    {
+      "division": "Apparel",
+      "category": "T-shirt",
+      "subcategory": "T-shirt"
+    },
+    {
+      "division": "Apparel",
+      "category": "T-shirt",
+      "subcategory": "Polo shirt"
+    },
+    {
+      "division": "Apparel",
+      "category": "Tops",
+      "subcategory": "Shirt"
+    },
+    {
+      "division": "Apparel",
+      "category": "Tops",
+      "subcategory": "Blouse"
+    },
+    {
+      "division": "Apparel",
+      "category": "Tops",
+      "subcategory": "Tunic"
+    },
+    {
+      "division": "Apparel",
+      "category": "Tops",
+      "subcategory": "Top"
+    },
+    {
+      "division": "Apparel",
+      "category": "Tops",
+      "subcategory": "Body"
+    },
+    {
+      "division": "Apparel",
+      "category": "Tops",
+      "subcategory": "Hoodie"
+    },
+    {
+      "division": "Apparel",
+      "category": "Tops",
+      "subcategory": "Sweatshirt"
+    },
+    {
+      "division": "Apparel",
+      "category": "Tops",
+      "subcategory": "Knit sweater"
+    },
+    {
+      "division": "Apparel",
+      "category": "Tops",
+      "subcategory": "Roll-neck"
+    },
+    {
+      "division": "Apparel",
+      "category": "Tops",
+      "subcategory": "Cardigan"
+    },
+    {
+      "division": "Apparel",
+      "category": "Bottoms",
+      "subcategory": "Jeans"
+    },
+    {
+      "division": "Apparel",
+      "category": "Bottoms",
+      "subcategory": "Trousers"
+    },
+    {
+      "division": "Apparel",
+      "category": "Bottoms",
+      "subcategory": "Sweatpants"
+    },
+    {
+      "division": "Apparel",
+      "category": "Bottoms",
+      "subcategory": "Bermudas"
+    },
+    {
+      "division": "Apparel",
+      "category": "Bottoms",
+      "subcategory": "Leggings"
+    },
+    {
+      "division": "Apparel",
+      "category": "Bottoms",
+      "subcategory": "Shorts"
+    },
+    {
+      "division": "Apparel",
+      "category": "Bottoms",
+      "subcategory": "Skirt"
+    },
+    {
+      "division": "Apparel",
+      "category": "Dresses",
+      "subcategory": "Dresses"
+    },
+    {
+      "division": "Apparel",
+      "category": "Dresses",
+      "subcategory": "Mini dress"
+    },
+    {
+      "division": "Apparel",
+      "category": "Dresses",
+      "subcategory": "Midi dress"
+    },
+    {
+      "division": "Apparel",
+      "category": "Dresses",
+      "subcategory": "Maxi dress"
+    },
+    {
+      "division": "Apparel",
+      "category": "Suits & Sets",
+      "subcategory": "Suits"
+    },
+    {
+      "division": "Apparel",
+      "category": "Suits & Sets",
+      "subcategory": "Sets"
+    },
+    {
+      "division": "Apparel",
+      "category": "Dresses",
+      "subcategory": "Jumpsuit"
+    },
+    {
+      "division": "Apparel",
+      "category": "Sleepwear",
+      "subcategory": "Pajama Set"
+    },
+    {
+      "division": "Apparel",
+      "category": "Sleepwear",
+      "subcategory": "Nightdress"
+    },
+    {
+      "division": "Apparel",
+      "category": "Sleepwear",
+      "subcategory": "Robe"
+    },
+    {
+      "division": "Apparel",
+      "category": "Underwear",
+      "subcategory": "Bra & Undershirt"
+    },
+    {
+      "division": "Apparel",
+      "category": "Underwear",
+      "subcategory": "Briefs"
+    },
+    {
+      "division": "Apparel",
+      "category": "Underwear",
+      "subcategory": "Boxers"
+    },
+    {
+      "division": "Apparel",
+      "category": "Underwear",
+      "subcategory": "Panties"
+    },
+    {
+      "division": "Apparel",
+      "category": "Underwear",
+      "subcategory": "Underwear set"
+    },
+    {
+      "division": "Apparel",
+      "category": "Underwear",
+      "subcategory": "Underwear other"
+    },
+    {
+      "division": "Apparel",
+      "category": "Underwear",
+      "subcategory": "Socks"
+    },
+    {
+      "division": "Apparel",
+      "category": "Underwear",
+      "subcategory": "Tights"
+    },
+    {
+      "division": "Apparel",
+      "category": "Underwear",
+      "subcategory": "Stockings"
+    },
+    {
+      "division": "Apparel",
+      "category": "Swimwear",
+      "subcategory": "Bikini"
+    },
+    {
+      "division": "Apparel",
+      "category": "Swimwear",
+      "subcategory": "One-Piece"
+    },
+    {
+      "division": "Apparel",
+      "category": "Swimwear",
+      "subcategory": "Swim Shorts"
+    },
+    {
+      "division": "Apparel",
+      "category": "Swimwear",
+      "subcategory": "Swim Bottom"
+    },
+    {
+      "division": "Apparel",
+      "category": "Swimwear",
+      "subcategory": "Swim Top"
+    },
+    {
+      "division": "Apparel",
+      "category": "Swimwear",
+      "subcategory": "Cover-Up"
+    },
+    {
+      "division": "Apparel",
+      "category": "Swimwear",
+      "subcategory": "Towel"
+    },
+    {
+      "division": "Footware",
+      "category": "Sneakers",
+      "subcategory": "Sneakers"
+    },
+    {
+      "division": "Footware",
+      "category": "Boots",
+      "subcategory": "Boots"
+    },
+    {
+      "division": "Footware",
+      "category": "Boots",
+      "subcategory": "Boots high heels"
+    },
+    {
+      "division": "Footware",
+      "category": "Boots",
+      "subcategory": "Boots mid heels"
+    },
+    {
+      "division": "Footware",
+      "category": "Boots",
+      "subcategory": "Boots flat heels"
+    },
+    {
+      "division": "Footware",
+      "category": "Court shoes",
+      "subcategory": "Court shoes"
+    },
+    {
+      "division": "Footware",
+      "category": "Court shoes",
+      "subcategory": "Court shoes high heels"
+    },
+    {
+      "division": "Footware",
+      "category": "Court shoes",
+      "subcategory": "Court shoes mid heels"
+    },
+    {
+      "division": "Footware",
+      "category": "Court shoes",
+      "subcategory": "Court shoes flat heels"
+    },
+    {
+      "division": "Footware",
+      "category": "Sandals",
+      "subcategory": "Sandals"
+    },
+    {
+      "division": "Footware",
+      "category": "Sandals",
+      "subcategory": "Sandals high heels"
+    },
+    {
+      "division": "Footware",
+      "category": "Sandals",
+      "subcategory": "Sandals mid heels"
+    },
+    {
+      "division": "Footware",
+      "category": "Sandals",
+      "subcategory": "Sandals flat heels"
+    },
+    {
+      "division": "Footware",
+      "category": "Slippers",
+      "subcategory": "Slippers"
+    },
+    {
+      "division": "Footware",
+      "category": "Slippers",
+      "subcategory": "Flip-flops"
+    },
+    {
+      "division": "Footware",
+      "category": "Slippers",
+      "subcategory": "Slides"
+    },
+    {
+      "division": "Footware",
+      "category": "Slippers",
+      "subcategory": "Home slippers"
+    },
+    {
+      "division": "Footware",
+      "category": "Slippers",
+      "subcategory": "Clogs"
+    },
+    {
+      "division": "Footware",
+      "category": "Shoes",
+      "subcategory": "Shoes"
+    },
+    {
+      "division": "Footware",
+      "category": "Shoes",
+      "subcategory": "Formal Shoes"
+    },
+    {
+      "division": "Footware",
+      "category": "Shoes",
+      "subcategory": "Casual Shoes"
+    },
+    {
+      "division": "Footware",
+      "category": "Shoes",
+      "subcategory": "Loafers"
+    },
+    {
+      "division": "Footware",
+      "category": "Shoes",
+      "subcategory": "Flat shoes"
+    },
+    {
+      "division": "Accesories",
+      "category": "Bags",
+      "subcategory": "Bags"
+    },
+    {
+      "division": "Accesories",
+      "category": "Bags",
+      "subcategory": "Handbag"
+    },
+    {
+      "division": "Accesories",
+      "category": "Bags",
+      "subcategory": "Suitcase"
+    },
+    {
+      "division": "Accesories",
+      "category": "Bags",
+      "subcategory": "Lap-top"
+    },
+    {
+      "division": "Accesories",
+      "category": "Bags",
+      "subcategory": "Backpack"
+    },
+    {
+      "division": "Accesories",
+      "category": "Small Leather Goods",
+      "subcategory": "Small Leather Goods"
+    },
+    {
+      "division": "Accesories",
+      "category": "Small Leather Goods",
+      "subcategory": "Wallets"
+    },
+    {
+      "division": "Accesories",
+      "category": "Small Leather Goods",
+      "subcategory": "Phone"
+    },
+    {
+      "division": "Accesories",
+      "category": "Belts",
+      "subcategory": "Belts"
+    },
+    {
+      "division": "Accesories",
+      "category": "Soft Accessories",
+      "subcategory": "Soft Accessories"
+    },
+    {
+      "division": "Accesories",
+      "category": "Soft Accessories",
+      "subcategory": "Gloves"
+    },
+    {
+      "division": "Accesories",
+      "category": "Soft Accessories",
+      "subcategory": "Hats"
+    },
+    {
+      "division": "Accesories",
+      "category": "Soft Accessories",
+      "subcategory": "Caps"
+    },
+    {
+      "division": "Accesories",
+      "category": "Soft Accessories",
+      "subcategory": "Scarf/Bandana"
+    },
+    {
+      "division": "Accesories",
+      "category": "Sunglasses",
+      "subcategory": "Sunglasses"
+    },
+    {
+      "division": "Accesories",
+      "category": "Jewelry",
+      "subcategory": "Jewelry"
+    },
+    {
+      "division": "Accesories",
+      "category": "Jewelry",
+      "subcategory": "Necklace"
+    },
+    {
+      "division": "Accesories",
+      "category": "Jewelry",
+      "subcategory": "Bracelet"
+    },
+    {
+      "division": "Accesories",
+      "category": "Jewelry",
+      "subcategory": "Ring"
+    },
+    {
+      "division": "Accesories",
+      "category": "Jewelry",
+      "subcategory": "Earrings"
+    },
+    {
+      "division": "Accesories",
+      "category": "Jewelry",
+      "subcategory": "Other Jewelry"
+    },
+    {
+      "division": "Accesories",
+      "category": "Watches",
+      "subcategory": "Watches"
+    },
+    {
+      "division": "Accesories",
+      "category": "Ties & Bowties",
+      "subcategory": "Ties & Bowties"
+    },
+    {
+      "division": "Accesories",
+      "category": "Ties & Bowties",
+      "subcategory": "Tie"
+    },
+    {
+      "division": "Accesories",
+      "category": "Ties & Bowties",
+      "subcategory": "Bowtie"
+    },
+    {
+      "division": "Accesories",
+      "category": "Fragrance",
+      "subcategory": "Fragrance"
+    },
+    {
+      "division": "Accesories",
+      "category": "Other Accessories",
+      "subcategory": "Other Accessories"
+    }
+  ],
+  "subcategory_to_category": {
+    "Jacket": "Outerwear",
+    "Leather Jacket": "Outerwear",
+    "Coat": "Outerwear",
+    "Fur Coat": "Outerwear",
+    "Cape": "Outerwear",
+    "Parka": "Outerwear",
+    "Vest": "Outerwear",
+    "Blazer": "Outerwear",
+    "Trench coat": "Outerwear",
+    "Poncho": "Outerwear",
+    "T-shirt": "T-shirt",
+    "Polo shirt": "T-shirt",
+    "Shirt": "Tops",
+    "Blouse": "Tops",
+    "Tunic": "Tops",
+    "Top": "Tops",
+    "Body": "Tops",
+    "Hoodie": "Tops",
+    "Sweatshirt": "Tops",
+    "Knit sweater": "Tops",
+    "Roll-neck": "Tops",
+    "Cardigan": "Tops",
+    "Jeans": "Bottoms",
+    "Trousers": "Bottoms",
+    "Sweatpants": "Bottoms",
+    "Bermudas": "Bottoms",
+    "Leggings": "Bottoms",
+    "Shorts": "Bottoms",
+    "Skirt": "Bottoms",
+    "Dresses": "Dresses",
+    "Mini dress": "Dresses",
+    "Midi dress": "Dresses",
+    "Maxi dress": "Dresses",
+    "Suits": "Suits & Sets",
+    "Sets": "Suits & Sets",
+    "Jumpsuit": "Dresses",
+    "Pajama Set": "Sleepwear",
+    "Nightdress": "Sleepwear",
+    "Robe": "Sleepwear",
+    "Bra & Undershirt": "Underwear",
+    "Briefs": "Underwear",
+    "Boxers": "Underwear",
+    "Panties": "Underwear",
+    "Underwear set": "Underwear",
+    "Underwear other": "Underwear",
+    "Socks": "Underwear",
+    "Tights": "Underwear",
+    "Stockings": "Underwear",
+    "Bikini": "Swimwear",
+    "One-Piece": "Swimwear",
+    "Swim Shorts": "Swimwear",
+    "Swim Bottom": "Swimwear",
+    "Swim Top": "Swimwear",
+    "Cover-Up": "Swimwear",
+    "Towel": "Swimwear",
+    "Sneakers": "Sneakers",
+    "Boots": "Boots",
+    "Boots high heels": "Boots",
+    "Boots mid heels": "Boots",
+    "Boots flat heels": "Boots",
+    "Court shoes": "Court shoes",
+    "Court shoes high heels": "Court shoes",
+    "Court shoes mid heels": "Court shoes",
+    "Court shoes flat heels": "Court shoes",
+    "Sandals": "Sandals",
+    "Sandals high heels": "Sandals",
+    "Sandals mid heels": "Sandals",
+    "Sandals flat heels": "Sandals",
+    "Slippers": "Slippers",
+    "Flip-flops": "Slippers",
+    "Slides": "Slippers",
+    "Home slippers": "Slippers",
+    "Clogs": "Slippers",
+    "Shoes": "Shoes",
+    "Formal Shoes": "Shoes",
+    "Casual Shoes": "Shoes",
+    "Loafers": "Shoes",
+    "Flat shoes": "Shoes",
+    "Bags": "Bags",
+    "Handbag": "Bags",
+    "Suitcase": "Bags",
+    "Lap-top": "Bags",
+    "Backpack": "Bags",
+    "Small Leather Goods": "Small Leather Goods",
+    "Wallets": "Small Leather Goods",
+    "Phone": "Small Leather Goods",
+    "Belts": "Belts",
+    "Soft Accessories": "Soft Accessories",
+    "Gloves": "Soft Accessories",
+    "Hats": "Soft Accessories",
+    "Caps": "Soft Accessories",
+    "Scarf/Bandana": "Soft Accessories",
+    "Sunglasses": "Sunglasses",
+    "Jewelry": "Jewelry",
+    "Necklace": "Jewelry",
+    "Bracelet": "Jewelry",
+    "Ring": "Jewelry",
+    "Earrings": "Jewelry",
+    "Other Jewelry": "Jewelry",
+    "Watches": "Watches",
+    "Ties & Bowties": "Ties & Bowties",
+    "Tie": "Ties & Bowties",
+    "Bowtie": "Ties & Bowties",
+    "Fragrance": "Fragrance",
+    "Other Accessories": "Other Accessories"
+  },
+  "conflicts": []
+}

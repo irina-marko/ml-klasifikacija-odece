@@ -1,0 +1,299 @@
+{
+  "source": "Item Tree.xlsx",
+  "language": "en",
+  "divisions": [
+    "Apparel"
+  ],
+  "categories": [
+    "Outerwear",
+    "T-shirt",
+    "Tops",
+    "Bottoms",
+    "Dresses",
+    "Suits & Sets",
+    "Sleepwear",
+    "Underwear",
+    "Swimwear"
+  ],
+  "pairs": [
+    {
+      "category": "Outerwear",
+      "subcategory": "Jacket"
+    },
+    {
+      "category": "Outerwear",
+      "subcategory": "Leather Jacket"
+    },
+    {
+      "category": "Outerwear",
+      "subcategory": "Coat"
+    },
+    {
+      "category": "Outerwear",
+      "subcategory": "Fur Coat"
+    },
+    {
+      "category": "Outerwear",
+      "subcategory": "Cape"
+    },
+    {
+      "category": "Outerwear",
+      "subcategory": "Parka"
+    },
+    {
+      "category": "Outerwear",
+      "subcategory": "Vest"
+    },
+    {
+      "category": "Outerwear",
+      "subcategory": "Blazer"
+    },
+    {
+      "category": "Outerwear",
+      "subcategory": "Trench coat"
+    },
+    {
+      "category": "Outerwear",
+      "subcategory": "Poncho"
+    },
+    {
+      "category": "T-shirt",
+      "subcategory": "T-shirt"
+    },
+    {
+      "category": "T-shirt",
+      "subcategory": "Polo shirt"
+    },
+    {
+      "category": "Tops",
+      "subcategory": "Shirt"
+    },
+    {
+      "category": "Tops",
+      "subcategory": "Blouse"
+    },
+    {
+      "category": "Tops",
+      "subcategory": "Tunic"
+    },
+    {
+      "category": "Tops",
+      "subcategory": "Top"
+    },
+    {
+      "category": "Tops",
+      "subcategory": "Body"
+    },
+    {
+      "category": "Tops",
+      "subcategory": "Hoodie"
+    },
+    {
+      "category": "Tops",
+      "subcategory": "Sweatshirt"
+    },
+    {
+      "category": "Tops",
+      "subcategory": "Knit sweater"
+    },
+    {
+      "category": "Tops",
+      "subcategory": "Roll-neck"
+    },
+    {
+      "category": "Tops",
+      "subcategory": "Cardigan"
+    },
+    {
+      "category": "Bottoms",
+      "subcategory": "Jeans"
+    },
+    {
+      "category": "Bottoms",
+      "subcategory": "Trousers"
+    },
+    {
+      "category": "Bottoms",
+      "subcategory": "Sweatpants"
+    },
+    {
+      "category": "Bottoms",
+      "subcategory": "Bermudas"
+    },
+    {
+      "category": "Bottoms",
+      "subcategory": "Leggings"
+    },
+    {
+      "category": "Bottoms",
+      "subcategory": "Shorts"
+    },
+    {
+      "category": "Bottoms",
+      "subcategory": "Skirt"
+    },
+    {
+      "category": "Dresses",
+      "subcategory": "Dresses"
+    },
+    {
+      "category": "Dresses",
+      "subcategory": "Mini dress"
+    },
+    {
+      "category": "Dresses",
+      "subcategory": "Midi dress"
+    },
+    {
+      "category": "Dresses",
+      "subcategory": "Maxi dress"
+    },
+    {
+      "category": "Suits & Sets",
+      "subcategory": "Suits"
+    },
+    {
+      "category": "Suits & Sets",
+      "subcategory": "Sets"
+    },
+    {
+      "category": "Dresses",
+      "subcategory": "Jumpsuit"
+    },
+    {
+      "category": "Sleepwear",
+      "subcategory": "Pajama Set"
+    },
+    {
+      "category": "Sleepwear",
+      "subcategory": "Nightdress"
+    },
+    {
+      "category": "Sleepwear",
+      "subcategory": "Robe"
+    },
+    {
+      "category": "Underwear",
+      "subcategory": "Bra & Undershirt"
+    },
+    {
+      "category": "Underwear",
+      "subcategory": "Briefs"
+    },
+    {
+      "category": "Underwear",
+      "subcategory": "Boxers"
+    },
+    {
+      "category": "Underwear",
+      "subcategory": "Panties"
+    },
+    {
+      "category": "Underwear",
+      "subcategory": "Underwear set"
+    },
+    {
+      "category": "Underwear",
+      "subcategory": "Underwear other"
+    },
+    {
+      "category": "Underwear",
+      "subcategory": "Socks"
+    },
+    {
+      "category": "Underwear",
+      "subcategory": "Tights"
+    },
+    {
+      "category": "Underwear",
+      "subcategory": "Stockings"
+    },
+    {
+      "category": "Swimwear",
+      "subcategory": "Bikini"
+    },
+    {
+      "category": "Swimwear",
+      "subcategory": "One-Piece"
+    },
+    {
+      "category": "Swimwear",
+      "subcategory": "Swim Shorts"
+    },
+    {
+      "category": "Swimwear",
+      "subcategory": "Swim Bottom"
+    },
+    {
+      "category": "Swimwear",
+      "subcategory": "Swim Top"
+    },
+    {
+      "category": "Swimwear",
+      "subcategory": "Cover-Up"
+    },
+    {
+      "category": "Swimwear",
+      "subcategory": "Towel"
+    }
+  ],
+  "subcategory_to_category": {
+    "Jacket": "Outerwear",
+    "Leather Jacket": "Outerwear",
+    "Coat": "Outerwear",
+    "Fur Coat": "Outerwear",
+    "Cape": "Outerwear",
+    "Parka": "Outerwear",
+    "Vest": "Outerwear",
+    "Blazer": "Outerwear",
+    "Trench coat": "Outerwear",
+    "Poncho": "Outerwear",
+    "T-shirt": "T-shirt",
+    "Polo shirt": "T-shirt",
+    "Shirt": "Tops",
+    "Blouse": "Tops",
+    "Tunic": "Tops",
+    "Top": "Tops",
+    "Body": "Tops",
+    "Hoodie": "Tops",
+    "Sweatshirt": "Tops",
+    "Knit sweater": "Tops",
+    "Roll-neck": "Tops",
+    "Cardigan": "Tops",
+    "Jeans": "Bottoms",
+    "Trousers": "Bottoms",
+    "Sweatpants": "Bottoms",
+    "Bermudas": "Bottoms",
+    "Leggings": "Bottoms",
+    "Shorts": "Bottoms",
+    "Skirt": "Bottoms",
+    "Dresses": "Dresses",
+    "Mini dress": "Dresses",
+    "Midi dress": "Dresses",
+    "Maxi dress": "Dresses",
+    "Suits": "Suits & Sets",
+    "Sets": "Suits & Sets",
+    "Jumpsuit": "Dresses",
+    "Pajama Set": "Sleepwear",
+    "Nightdress": "Sleepwear",
+    "Robe": "Sleepwear",
+    "Bra & Undershirt": "Underwear",
+    "Briefs": "Underwear",
+    "Boxers": "Underwear",
+    "Panties": "Underwear",
+    "Underwear set": "Underwear",
+    "Underwear other": "Underwear",
+    "Socks": "Underwear",
+    "Tights": "Underwear",
+    "Stockings": "Underwear",
+    "Bikini": "Swimwear",
+    "One-Piece": "Swimwear",
+    "Swim Shorts": "Swimwear",
+    "Swim Bottom": "Swimwear",
+    "Swim Top": "Swimwear",
+    "Cover-Up": "Swimwear",
+    "Towel": "Swimwear"
+  },
+  "conflicts": [],
+  "division": "Apparel"
+}
