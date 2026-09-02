@@ -1,0 +1,116 @@
+Labeling summary (Apparel + Footware + Accesories)
+labeled: 6742
+unmatched: 0
+
+by source:
+  6-ORDERSHEET_MAIN FW26_GUESS_WLCEE.xlsx: labeled=1780 unmatched=0 excel_rows=13639
+  11-ORDERSHEET_MAINFW26_KIDS_WLCEE.xlsx: labeled=1732 unmatched=0 excel_rows=11443
+  7-ORDERSHEET_MAIN FW26_HB_WLCEE.xlsx: labeled=1336 unmatched=0 excel_rows=1805
+  Order Levis Belgrade Usce APPAREL FW25.xlsx: labeled=862 unmatched=0 excel_rows=9774
+  10-ORDERSHEET_MAINFW26_FOOTWEAR_WLCEE.xlsx: labeled=394 unmatched=0 excel_rows=4999
+  8-ORDERSHEET_MAIN FW26_MARCIANO_WLCEE.xlsx: labeled=344 unmatched=0 excel_rows=2256
+  HWR FA26 order template incl all selections.xlsx: labeled=234 unmatched=0 excel_rows=237
+  BMG_FA26_FCO_XYZ BANJA LUKA.xlsx: labeled=60 unmatched=0 excel_rows=91
+
+by division:
+  Apparel: 4605
+  Accesories: 1734
+  Footware: 403
+
+by category:
+  Tops: 1500
+  T-shirt: 982
+  Bottoms: 975
+  Bags: 795
+  Outerwear: 770
+  Soft Accessories: 463
+  Dresses: 361
+  Small Leather Goods: 216
+  Sneakers: 174
+  Boots: 155
+  Belts: 142
+  Other Accessories: 118
+  Court shoes: 49
+  Shoes: 20
+  Underwear: 12
+  Suits & Sets: 5
+  Slippers: 3
+  Sandals: 2
+
+by subcategory:
+  T-shirt / T-shirt: 904
+  Bags / Handbag: 722
+  Outerwear / Jacket: 558
+  Tops / Knit sweater: 472
+  Bottoms / Trousers: 409
+  Bottoms / Jeans: 377
+  Dresses / Dresses: 312
+  Tops / Sweatshirt: 281
+  Tops / Shirt: 232
+  Tops / Top: 219
+  Small Leather Goods / Wallets: 216
+  Soft Accessories / Hats: 199
+  Sneakers / Sneakers: 174
+  Soft Accessories / Scarf/Bandana: 155
+  Boots / Boots: 155
+  Belts / Belts: 142
+  Bottoms / Skirt: 135
+  Other Accessories / Other Accessories: 118
+  Tops / Hoodie: 102
+  Tops / Cardigan: 94
+  T-shirt / Polo shirt: 78
+  Outerwear / Coat: 69
+  Outerwear / Blazer: 62
+  Soft Accessories / Caps: 51
+  Bags / Backpack: 51
+  Court shoes / Court shoes: 49
+  Tops / Blouse: 41
+  Soft Accessories / Soft Accessories: 35
+  Dresses / Jumpsuit: 33
+  Tops / Body: 31
+  Bottoms / Shorts: 28
+  Outerwear / Vest: 26
+  Tops / Roll-neck: 25
+  Soft Accessories / Gloves: 23
+  Outerwear / Fur Coat: 22
+  Bags / Suitcase: 22
+  Bottoms / Sweatpants: 21
+  Outerwear / Leather Jacket: 15
+  Outerwear / Trench coat: 12
+  Underwear / Socks: 12
+  Shoes / Loafers: 12
+  Dresses / Mini dress: 9
+  Shoes / Casual Shoes: 8
+  Dresses / Midi dress: 5
+  Outerwear / Poncho: 5
+  Suits & Sets / Sets: 5
+  Bottoms / Leggings: 4
+  Tops / Tunic: 3
+  Slippers / Clogs: 3
+  Dresses / Maxi dress: 2
+  Sandals / Sandals: 2
+  Outerwear / Parka: 1
+  Bottoms / Bermudas: 1
+
+by color_family:
+  Black: 1794
+  Blue: 938
+  White: 688
+  Brown: 575
+  (unmapped): 567
+  Neutral: 466
+  Red: 362
+  Green: 317
+  Grey: 293
+  Multicolor: 285
+  Pink: 256
+  Purple: 127
+  Yellow: 59
+  Orange: 15
+
+unmatched reasons:
+
+unmatched by source:
+
+Skipped as duplicate SKU sheets: Marciano order form, FTW order form, HB order form, HWR selection subsets.
+Skipped Premiata: order form is not a tabular product catalog.
