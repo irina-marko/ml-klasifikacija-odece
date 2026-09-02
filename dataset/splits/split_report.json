@@ -1,0 +1,538 @@
+{
+  "category": {
+    "task": "category",
+    "label_column": "category",
+    "n_classes": 14,
+    "classes": [
+      "Bags",
+      "Belts",
+      "Boots",
+      "Bottoms",
+      "Court shoes",
+      "Dresses",
+      "Other Accessories",
+      "Outerwear",
+      "Shoes",
+      "Small Leather Goods",
+      "Sneakers",
+      "Soft Accessories",
+      "T-shirt",
+      "Tops"
+    ],
+    "class_to_idx": {
+      "Bags": 0,
+      "Belts": 1,
+      "Boots": 2,
+      "Bottoms": 3,
+      "Court shoes": 4,
+      "Dresses": 5,
+      "Other Accessories": 6,
+      "Outerwear": 7,
+      "Shoes": 8,
+      "Small Leather Goods": 9,
+      "Sneakers": 10,
+      "Soft Accessories": 11,
+      "T-shirt": 12,
+      "Tops": 13
+    },
+    "counts": {
+      "all": 6720,
+      "train": 4704,
+      "val": 1007,
+      "test": 1009
+    },
+    "per_class": {
+      "Bags": {
+        "all": 795,
+        "train": 557,
+        "val": 119,
+        "test": 119
+      },
+      "Belts": {
+        "all": 142,
+        "train": 99,
+        "val": 22,
+        "test": 21
+      },
+      "Boots": {
+        "all": 155,
+        "train": 109,
+        "val": 23,
+        "test": 23
+      },
+      "Bottoms": {
+        "all": 975,
+        "train": 682,
+        "val": 146,
+        "test": 147
+      },
+      "Court shoes": {
+        "all": 49,
+        "train": 34,
+        "val": 8,
+        "test": 7
+      },
+      "Dresses": {
+        "all": 361,
+        "train": 253,
+        "val": 54,
+        "test": 54
+      },
+      "Other Accessories": {
+        "all": 118,
+        "train": 83,
+        "val": 18,
+        "test": 17
+      },
+      "Outerwear": {
+        "all": 770,
+        "train": 539,
+        "val": 115,
+        "test": 116
+      },
+      "Shoes": {
+        "all": 20,
+        "train": 14,
+        "val": 3,
+        "test": 3
+      },
+      "Small Leather Goods": {
+        "all": 216,
+        "train": 151,
+        "val": 32,
+        "test": 33
+      },
+      "Sneakers": {
+        "all": 174,
+        "train": 122,
+        "val": 26,
+        "test": 26
+      },
+      "Soft Accessories": {
+        "all": 463,
+        "train": 324,
+        "val": 69,
+        "test": 70
+      },
+      "T-shirt": {
+        "all": 982,
+        "train": 687,
+        "val": 147,
+        "test": 148
+      },
+      "Tops": {
+        "all": 1500,
+        "train": 1050,
+        "val": 225,
+        "test": 225
+      }
+    },
+    "dropped_below_min": {
+      "Underwear": 12,
+      "Suits & Sets": 5,
+      "Slippers": 3,
+      "Sandals": 2
+    },
+    "min_count": 20
+  },
+  "subcategory": {
+    "task": "subcategory",
+    "label_column": "subcategory",
+    "n_classes": 30,
+    "classes": [
+      "Backpack",
+      "Belts",
+      "Blazer",
+      "Blouse",
+      "Body",
+      "Boots",
+      "Caps",
+      "Cardigan",
+      "Coat",
+      "Court shoes",
+      "Dresses",
+      "Handbag",
+      "Hats",
+      "Hoodie",
+      "Jacket",
+      "Jeans",
+      "Jumpsuit",
+      "Knit sweater",
+      "Other Accessories",
+      "Polo shirt",
+      "Scarf/Bandana",
+      "Shirt",
+      "Skirt",
+      "Sneakers",
+      "Soft Accessories",
+      "Sweatshirt",
+      "T-shirt",
+      "Top",
+      "Trousers",
+      "Wallets"
+    ],
+    "class_to_idx": {
+      "Backpack": 0,
+      "Belts": 1,
+      "Blazer": 2,
+      "Blouse": 3,
+      "Body": 4,
+      "Boots": 5,
+      "Caps": 6,
+      "Cardigan": 7,
+      "Coat": 8,
+      "Court shoes": 9,
+      "Dresses": 10,
+      "Handbag": 11,
+      "Hats": 12,
+      "Hoodie": 13,
+      "Jacket": 14,
+      "Jeans": 15,
+      "Jumpsuit": 16,
+      "Knit sweater": 17,
+      "Other Accessories": 18,
+      "Polo shirt": 19,
+      "Scarf/Bandana": 20,
+      "Shirt": 21,
+      "Skirt": 22,
+      "Sneakers": 23,
+      "Soft Accessories": 24,
+      "Sweatshirt": 25,
+      "T-shirt": 26,
+      "Top": 27,
+      "Trousers": 28,
+      "Wallets": 29
+    },
+    "counts": {
+      "all": 6476,
+      "train": 4533,
+      "val": 971,
+      "test": 972
+    },
+    "per_class": {
+      "Backpack": {
+        "all": 51,
+        "train": 36,
+        "val": 8,
+        "test": 7
+      },
+      "Belts": {
+        "all": 142,
+        "train": 99,
+        "val": 21,
+        "test": 22
+      },
+      "Blazer": {
+        "all": 62,
+        "train": 43,
+        "val": 10,
+        "test": 9
+      },
+      "Blouse": {
+        "all": 41,
+        "train": 29,
+        "val": 6,
+        "test": 6
+      },
+      "Body": {
+        "all": 31,
+        "train": 22,
+        "val": 5,
+        "test": 4
+      },
+      "Boots": {
+        "all": 155,
+        "train": 109,
+        "val": 23,
+        "test": 23
+      },
+      "Caps": {
+        "all": 51,
+        "train": 36,
+        "val": 8,
+        "test": 7
+      },
+      "Cardigan": {
+        "all": 94,
+        "train": 66,
+        "val": 14,
+        "test": 14
+      },
+      "Coat": {
+        "all": 69,
+        "train": 48,
+        "val": 11,
+        "test": 10
+      },
+      "Court shoes": {
+        "all": 49,
+        "train": 34,
+        "val": 8,
+        "test": 7
+      },
+      "Dresses": {
+        "all": 312,
+        "train": 218,
+        "val": 47,
+        "test": 47
+      },
+      "Handbag": {
+        "all": 722,
+        "train": 505,
+        "val": 108,
+        "test": 109
+      },
+      "Hats": {
+        "all": 199,
+        "train": 139,
+        "val": 30,
+        "test": 30
+      },
+      "Hoodie": {
+        "all": 102,
+        "train": 71,
+        "val": 16,
+        "test": 15
+      },
+      "Jacket": {
+        "all": 558,
+        "train": 391,
+        "val": 83,
+        "test": 84
+      },
+      "Jeans": {
+        "all": 377,
+        "train": 264,
+        "val": 56,
+        "test": 57
+      },
+      "Jumpsuit": {
+        "all": 33,
+        "train": 23,
+        "val": 5,
+        "test": 5
+      },
+      "Knit sweater": {
+        "all": 472,
+        "train": 330,
+        "val": 71,
+        "test": 71
+      },
+      "Other Accessories": {
+        "all": 118,
+        "train": 83,
+        "val": 17,
+        "test": 18
+      },
+      "Polo shirt": {
+        "all": 78,
+        "train": 55,
+        "val": 12,
+        "test": 11
+      },
+      "Scarf/Bandana": {
+        "all": 155,
+        "train": 108,
+        "val": 23,
+        "test": 24
+      },
+      "Shirt": {
+        "all": 232,
+        "train": 162,
+        "val": 35,
+        "test": 35
+      },
+      "Skirt": {
+        "all": 135,
+        "train": 95,
+        "val": 20,
+        "test": 20
+      },
+      "Sneakers": {
+        "all": 174,
+        "train": 122,
+        "val": 26,
+        "test": 26
+      },
+      "Soft Accessories": {
+        "all": 35,
+        "train": 25,
+        "val": 5,
+        "test": 5
+      },
+      "Sweatshirt": {
+        "all": 281,
+        "train": 197,
+        "val": 42,
+        "test": 42
+      },
+      "T-shirt": {
+        "all": 904,
+        "train": 633,
+        "val": 135,
+        "test": 136
+      },
+      "Top": {
+        "all": 219,
+        "train": 153,
+        "val": 33,
+        "test": 33
+      },
+      "Trousers": {
+        "all": 409,
+        "train": 286,
+        "val": 61,
+        "test": 62
+      },
+      "Wallets": {
+        "all": 216,
+        "train": 151,
+        "val": 32,
+        "test": 33
+      }
+    },
+    "dropped_below_min": {
+      "Shorts": 28,
+      "Vest": 26,
+      "Roll-neck": 25,
+      "Gloves": 23,
+      "Fur Coat": 22,
+      "Suitcase": 22,
+      "Sweatpants": 21,
+      "Leather Jacket": 15,
+      "Loafers": 12,
+      "Trench coat": 12,
+      "Socks": 12,
+      "Mini dress": 9,
+      "Casual Shoes": 8,
+      "Sets": 5,
+      "Poncho": 5,
+      "Midi dress": 5,
+      "Leggings": 4,
+      "Clogs": 3,
+      "Tunic": 3,
+      "Sandals": 2,
+      "Maxi dress": 2,
+      "Parka": 1,
+      "Bermudas": 1
+    },
+    "min_count": 30
+  },
+  "color": {
+    "task": "color",
+    "label_column": "color_family",
+    "n_classes": 12,
+    "classes": [
+      "Black",
+      "Blue",
+      "Brown",
+      "Green",
+      "Grey",
+      "Multicolor",
+      "Neutral",
+      "Pink",
+      "Purple",
+      "Red",
+      "White",
+      "Yellow"
+    ],
+    "class_to_idx": {
+      "Black": 0,
+      "Blue": 1,
+      "Brown": 2,
+      "Green": 3,
+      "Grey": 4,
+      "Multicolor": 5,
+      "Neutral": 6,
+      "Pink": 7,
+      "Purple": 8,
+      "Red": 9,
+      "White": 10,
+      "Yellow": 11
+    },
+    "counts": {
+      "all": 6160,
+      "train": 4312,
+      "val": 923,
+      "test": 925
+    },
+    "per_class": {
+      "Black": {
+        "all": 1794,
+        "train": 1256,
+        "val": 269,
+        "test": 269
+      },
+      "Blue": {
+        "all": 938,
+        "train": 657,
+        "val": 140,
+        "test": 141
+      },
+      "Brown": {
+        "all": 575,
+        "train": 403,
+        "val": 86,
+        "test": 86
+      },
+      "Green": {
+        "all": 317,
+        "train": 222,
+        "val": 47,
+        "test": 48
+      },
+      "Grey": {
+        "all": 293,
+        "train": 205,
+        "val": 44,
+        "test": 44
+      },
+      "Multicolor": {
+        "all": 285,
+        "train": 199,
+        "val": 43,
+        "test": 43
+      },
+      "Neutral": {
+        "all": 466,
+        "train": 326,
+        "val": 70,
+        "test": 70
+      },
+      "Pink": {
+        "all": 256,
+        "train": 179,
+        "val": 39,
+        "test": 38
+      },
+      "Purple": {
+        "all": 127,
+        "train": 89,
+        "val": 19,
+        "test": 19
+      },
+      "Red": {
+        "all": 362,
+        "train": 253,
+        "val": 54,
+        "test": 55
+      },
+      "White": {
+        "all": 688,
+        "train": 482,
+        "val": 103,
+        "test": 103
+      },
+      "Yellow": {
+        "all": 59,
+        "train": 41,
+        "val": 9,
+        "test": 9
+      }
+    },
+    "dropped_below_min": {
+      "Orange": 15
+    },
+    "min_count": 20
+  }
+}
