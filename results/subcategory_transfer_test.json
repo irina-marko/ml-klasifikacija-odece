@@ -1,0 +1,226 @@
+{
+  "task": "subcategory",
+  "model": "transfer",
+  "n_classes": 30,
+  "class_names": [
+    "Backpack",
+    "Belts",
+    "Blazer",
+    "Blouse",
+    "Body",
+    "Boots",
+    "Caps",
+    "Cardigan",
+    "Coat",
+    "Court shoes",
+    "Dresses",
+    "Handbag",
+    "Hats",
+    "Hoodie",
+    "Jacket",
+    "Jeans",
+    "Jumpsuit",
+    "Knit sweater",
+    "Other Accessories",
+    "Polo shirt",
+    "Scarf/Bandana",
+    "Shirt",
+    "Skirt",
+    "Sneakers",
+    "Soft Accessories",
+    "Sweatshirt",
+    "T-shirt",
+    "Top",
+    "Trousers",
+    "Wallets"
+  ],
+  "best_val_macro_f1": 0.5681353143964525,
+  "test": {
+    "accuracy": 0.6563786008230452,
+    "macro_f1": 0.6038417197058104,
+    "weighted_f1": 0.6665565739776274
+  },
+  "per_class": {
+    "Backpack": {
+      "precision": 0.75,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8,
+      "support": 7.0
+    },
+    "Belts": {
+      "precision": 0.84,
+      "recall": 0.9545454545454546,
+      "f1-score": 0.8936170212765957,
+      "support": 22.0
+    },
+    "Blazer": {
+      "precision": 0.21052631578947367,
+      "recall": 0.4444444444444444,
+      "f1-score": 0.2857142857142857,
+      "support": 9.0
+    },
+    "Blouse": {
+      "precision": 0.3,
+      "recall": 0.5,
+      "f1-score": 0.375,
+      "support": 6.0
+    },
+    "Body": {
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1-score": 0.4,
+      "support": 4.0
+    },
+    "Boots": {
+      "precision": 0.9583333333333334,
+      "recall": 1.0,
+      "f1-score": 0.9787234042553191,
+      "support": 23.0
+    },
+    "Caps": {
+      "precision": 0.2222222222222222,
+      "recall": 0.2857142857142857,
+      "f1-score": 0.25,
+      "support": 7.0
+    },
+    "Cardigan": {
+      "precision": 0.2222222222222222,
+      "recall": 0.42857142857142855,
+      "f1-score": 0.2926829268292683,
+      "support": 14.0
+    },
+    "Coat": {
+      "precision": 0.24242424242424243,
+      "recall": 0.8,
+      "f1-score": 0.37209302325581395,
+      "support": 10.0
+    },
+    "Court shoes": {
+      "precision": 0.875,
+      "recall": 1.0,
+      "f1-score": 0.9333333333333333,
+      "support": 7.0
+    },
+    "Dresses": {
+      "precision": 0.5384615384615384,
+      "recall": 0.7446808510638298,
+      "f1-score": 0.625,
+      "support": 47.0
+    },
+    "Handbag": {
+      "precision": 0.9278350515463918,
+      "recall": 0.8256880733944955,
+      "f1-score": 0.8737864077669902,
+      "support": 109.0
+    },
+    "Hats": {
+      "precision": 0.7297297297297297,
+      "recall": 0.9,
+      "f1-score": 0.8059701492537313,
+      "support": 30.0
+    },
+    "Hoodie": {
+      "precision": 0.25,
+      "recall": 0.4666666666666667,
+      "f1-score": 0.32558139534883723,
+      "support": 15.0
+    },
+    "Jacket": {
+      "precision": 0.7560975609756098,
+      "recall": 0.36904761904761907,
+      "f1-score": 0.496,
+      "support": 84.0
+    },
+    "Jeans": {
+      "precision": 0.8166666666666667,
+      "recall": 0.8596491228070176,
+      "f1-score": 0.8376068376068376,
+      "support": 57.0
+    },
+    "Jumpsuit": {
+      "precision": 0.42857142857142855,
+      "recall": 0.6,
+      "f1-score": 0.5,
+      "support": 5.0
+    },
+    "Knit sweater": {
+      "precision": 0.6,
+      "recall": 0.4225352112676056,
+      "f1-score": 0.49586776859504134,
+      "support": 71.0
+    },
+    "Other Accessories": {
+      "precision": 0.375,
+      "recall": 0.5,
+      "f1-score": 0.42857142857142855,
+      "support": 18.0
+    },
+    "Polo shirt": {
+      "precision": 0.3333333333333333,
+      "recall": 0.5454545454545454,
+      "f1-score": 0.41379310344827586,
+      "support": 11.0
+    },
+    "Scarf/Bandana": {
+      "precision": 0.8571428571428571,
+      "recall": 0.75,
+      "f1-score": 0.8,
+      "support": 24.0
+    },
+    "Shirt": {
+      "precision": 0.5555555555555556,
+      "recall": 0.42857142857142855,
+      "f1-score": 0.4838709677419355,
+      "support": 35.0
+    },
+    "Skirt": {
+      "precision": 1.0,
+      "recall": 0.65,
+      "f1-score": 0.7878787878787878,
+      "support": 20.0
+    },
+    "Sneakers": {
+      "precision": 0.8666666666666667,
+      "recall": 1.0,
+      "f1-score": 0.9285714285714286,
+      "support": 26.0
+    },
+    "Soft Accessories": {
+      "precision": 0.4444444444444444,
+      "recall": 0.8,
+      "f1-score": 0.5714285714285714,
+      "support": 5.0
+    },
+    "Sweatshirt": {
+      "precision": 0.4523809523809524,
+      "recall": 0.4523809523809524,
+      "f1-score": 0.4523809523809524,
+      "support": 42.0
+    },
+    "T-shirt": {
+      "precision": 0.84,
+      "recall": 0.6176470588235294,
+      "f1-score": 0.711864406779661,
+      "support": 136.0
+    },
+    "Top": {
+      "precision": 0.2608695652173913,
+      "recall": 0.36363636363636365,
+      "f1-score": 0.3037974683544304,
+      "support": 33.0
+    },
+    "Trousers": {
+      "precision": 0.847457627118644,
+      "recall": 0.8064516129032258,
+      "f1-score": 0.8264462809917356,
+      "support": 62.0
+    },
+    "Wallets": {
+      "precision": 0.8529411764705882,
+      "recall": 0.8787878787878788,
+      "f1-score": 0.8656716417910447,
+      "support": 33.0
+    }
+  },
+  "checkpoint": "models/subcategory_transfer_best.pt"
+}

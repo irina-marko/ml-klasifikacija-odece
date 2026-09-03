@@ -1,0 +1,10 @@
+Scratch CNN vs transfer learning (ResNet18, frozen backbone, trained last layer)
+image size 128, batch 32, CPU/GPU as available
+
+task         model      acc      macro-F1   weighted-F1 
+category     scratch    0.642    0.622      0.641
+category     transfer   0.736    0.762      0.738
+subcategory  scratch    0.480    0.429      0.479
+subcategory  transfer   0.656    0.604      0.667
+color        scratch    0.671    0.514      0.654
+color        transfer   0.594    0.504      0.598

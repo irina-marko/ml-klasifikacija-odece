@@ -1,0 +1,7 @@
+task,model,n_classes,test_accuracy,test_macro_f1,test_weighted_f1
+category,scratch,14,0.6422,0.6221,0.6413
+category,transfer,14,0.7364,0.7624,0.7383
+subcategory,scratch,30,0.4805,0.4286,0.4792
+subcategory,transfer,30,0.6564,0.6038,0.6666
+color,scratch,12,0.6714,0.5141,0.6537
+color,transfer,12,0.5935,0.5038,0.5983
