@@ -284,6 +284,8 @@ def map_category(
     gh0=None,
     gh2=None,
 ) -> CategoryMatch:
+    # prioritet: kljucna rec iz naziva > GH2 > GH1 fallback
+    # (GH1 je cesto previse grubo, npr. OUTERWEAR za sve)
     gh1_key = _norm_key(gh1)
     gh2_key = _norm_key(gh2)
 
@@ -294,7 +296,7 @@ def map_category(
     for pattern, subcategory in PART_DESC_RULES:
         if pattern.search(search_parts):
             keyword_sub = subcategory
-            break
+            break  # prvo poklapanje, zato su specificnija pravila gore
 
     gh1_category = GH1_TO_CATEGORY.get(gh1_key)
     gh1_sub = GH1_TO_SUBCATEGORY.get(gh1_key)

@@ -105,6 +105,7 @@ def row_to_media(zf: zipfile.ZipFile, sheet_xml_path: str) -> dict[int, str]:
                 embed = child.attrib.get(f"{{{NS_R}}}embed") or child.attrib.get("embed")
         if row_el is None or embed is None or embed not in rid_to_media:
             continue
+        # xml broji od 0, excel/openpyxl od 1 — bez +1 bi sve bilo pomereno
         excel_row = int(row_el.text) + 1
         row_media[excel_row] = rid_to_media[embed]
     return row_media

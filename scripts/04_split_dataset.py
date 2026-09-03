@@ -22,12 +22,15 @@ MIN_COLOR = 20
 
 
 def stratified_three_way(df: pd.DataFrame, label_col: str, seed: int = SEED):
+    # train_test_split deli samo na 2 dela, pa radimo dvaput
+    # (prvo 70% train, pa ostatak na val/test)
     train_df, rest_df = train_test_split(
         df,
         train_size=TRAIN_SIZE,
         stratify=df[label_col],
         random_state=seed,
     )
+    # 0.15 od CELINE = pola od ovih 30% ostatka
     relative_val = VAL_SIZE / (1.0 - TRAIN_SIZE)
     val_df, test_df = train_test_split(
         rest_df,
@@ -39,6 +42,7 @@ def stratified_three_way(df: pd.DataFrame, label_col: str, seed: int = SEED):
 
 
 def filter_min_count(df: pd.DataFrame, col: str, min_count: int) -> tuple[pd.DataFrame, list[str]]:
+    # izbacujemo klase sa premalo primera (inace stratify puca)
     counts = df[col].value_counts()
     keep = counts[counts >= min_count].index.tolist()
     dropped = counts[counts < min_count]
@@ -49,6 +53,7 @@ def filter_min_count(df: pd.DataFrame, col: str, min_count: int) -> tuple[pd.Dat
 def write_task(name: str, df: pd.DataFrame, label_col: str) -> dict:
     train_df, val_df, test_df = stratified_three_way(df, label_col)
     classes = sorted(df[label_col].unique())
+    # pytorch treba broj, ne string labelu
     class_to_idx = {name_: i for i, name_ in enumerate(classes)}
 
     for split_name, split_df in [("train", train_df), ("val", val_df), ("test", test_df)]:

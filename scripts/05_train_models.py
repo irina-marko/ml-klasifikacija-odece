@@ -65,6 +65,7 @@ class ScratchCNN(nn.Module):
 
     def __init__(self, n_classes: int):
         super().__init__()
+        # klasicni blokovi sa vezbi
         self.features = nn.Sequential(
             nn.Conv2d(3, 32, kernel_size=3, padding=1),
             nn.BatchNorm2d(32),
@@ -83,7 +84,7 @@ class ScratchCNN(nn.Module):
             nn.ReLU(inplace=True),
             nn.MaxPool2d(2),
         )
-        # 128 / 16 = 8
+        # 128 / 16 = 8  (4x pool)
         self.classifier = nn.Sequential(
             nn.Flatten(),
             nn.Dropout(0.5),
@@ -98,20 +99,24 @@ class ScratchCNN(nn.Module):
 
 
 def build_transfer_model(n_classes: int) -> nn.Module:
+    # resnet sa imagenet tezinama, zamrzavamo backbone
     weights = models.ResNet18_Weights.IMAGENET1K_V1
     model = models.resnet18(weights=weights)
     for param in model.parameters():
-        param.requires_grad = False
+        param.requires_grad = False  # ne diramo pretrenirane tezine
+    # samo novi fc se uci
     model.fc = nn.Linear(model.fc.in_features, n_classes)
     return model
 
 
 def make_transforms(train: bool):
+    # augmentacija samo na trainu (val/test ostaju "cisti")
     if train:
         return transforms.Compose(
             [
                 transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
                 transforms.RandomHorizontalFlip(),
+                # malo slabiji jitter, zbog color zadatka
                 transforms.ColorJitter(brightness=0.15, contrast=0.15, saturation=0.15),
                 transforms.ToTensor(),
                 transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
@@ -224,6 +229,7 @@ def train_one(task: str, model_name: str, device: torch.device) -> dict:
     val_loader = DataLoader(val_ds, batch_size=BATCH_SIZE, shuffle=False, num_workers=0)
     test_loader = DataLoader(test_ds, batch_size=BATCH_SIZE, shuffle=False, num_workers=0)
 
+    # class weights zbog nebalansa (retke klase da ne budu ignorisane)
     weights = compute_class_weight(
         "balanced",
         classes=np.arange(n_classes),
@@ -239,6 +245,7 @@ def train_one(task: str, model_name: str, device: torch.device) -> dict:
         epochs = EPOCHS_SCRATCH
     else:
         model = build_transfer_model(n_classes).to(device)
+        # za transfer ucimo samo fc
         optimizer = torch.optim.Adam(model.fc.parameters(), lr=1e-3, weight_decay=1e-4)
         epochs = EPOCHS_TRANSFER
 
@@ -271,6 +278,7 @@ def train_one(task: str, model_name: str, device: torch.device) -> dict:
             f"train loss {train_loss:.3f} acc {train_acc:.3f} f1 {train_f1:.3f}  "
             f"val loss {val_loss:.3f} acc {val_acc:.3f} f1 {val_f1:.3f}"
         )
+        # early stopping po val macro-F1 (ne po accuracy)
         if val_f1 > best_f1 + 1e-4:
             best_f1 = val_f1
             bad_epochs = 0
@@ -289,6 +297,7 @@ def train_one(task: str, model_name: str, device: torch.device) -> dict:
                 print(f"early stopping at epoch {epoch}")
                 break
 
+    # ucitamo najbolji ckpt pa tek onda test
     blob = torch.load(ckpt, map_location=device, weights_only=False)
     model.load_state_dict(blob["state_dict"])
     test_metrics = evaluate(model, test_loader, device, class_names)

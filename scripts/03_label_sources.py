@@ -133,6 +133,8 @@ def load_csv(path: Path) -> list[dict]:
 
 
 def dedupe_rows(rows: list[dict]) -> list[dict]:
+    # isti artikal se ponavlja po velicini (S/M/L), slika je ista
+    # zato dedup po style+color (ne samo style, jer boje trebaju za color task)
     seen_keys = set()
     unique = []
     for rec in rows:
