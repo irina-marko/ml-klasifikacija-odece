@@ -1,0 +1,114 @@
+{
+  "task": "category",
+  "model": "scratch",
+  "n_classes": 14,
+  "class_names": [
+    "Bags",
+    "Belts",
+    "Boots",
+    "Bottoms",
+    "Court shoes",
+    "Dresses",
+    "Other Accessories",
+    "Outerwear",
+    "Shoes",
+    "Small Leather Goods",
+    "Sneakers",
+    "Soft Accessories",
+    "T-shirt",
+    "Tops"
+  ],
+  "best_val_macro_f1": 0.7206968254330816,
+  "test": {
+    "accuracy": 0.6422200198216056,
+    "macro_f1": 0.6221021522889417,
+    "weighted_f1": 0.641256568782774
+  },
+  "per_class": {
+    "Bags": {
+      "precision": 0.8349514563106796,
+      "recall": 0.7226890756302521,
+      "f1-score": 0.7747747747747747,
+      "support": 119.0
+    },
+    "Belts": {
+      "precision": 0.6666666666666666,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.75,
+      "support": 21.0
+    },
+    "Boots": {
+      "precision": 0.75,
+      "recall": 0.9130434782608695,
+      "f1-score": 0.8235294117647058,
+      "support": 23.0
+    },
+    "Bottoms": {
+      "precision": 0.8540145985401459,
+      "recall": 0.7959183673469388,
+      "f1-score": 0.823943661971831,
+      "support": 147.0
+    },
+    "Court shoes": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 7.0
+    },
+    "Dresses": {
+      "precision": 0.5571428571428572,
+      "recall": 0.7222222222222222,
+      "f1-score": 0.6290322580645161,
+      "support": 54.0
+    },
+    "Other Accessories": {
+      "precision": 0.1,
+      "recall": 0.058823529411764705,
+      "f1-score": 0.07407407407407407,
+      "support": 17.0
+    },
+    "Outerwear": {
+      "precision": 0.38636363636363635,
+      "recall": 0.5862068965517241,
+      "f1-score": 0.4657534246575342,
+      "support": 116.0
+    },
+    "Shoes": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "Small Leather Goods": {
+      "precision": 0.5909090909090909,
+      "recall": 0.7878787878787878,
+      "f1-score": 0.6753246753246753,
+      "support": 33.0
+    },
+    "Sneakers": {
+      "precision": 0.8125,
+      "recall": 1.0,
+      "f1-score": 0.896551724137931,
+      "support": 26.0
+    },
+    "Soft Accessories": {
+      "precision": 0.76,
+      "recall": 0.5428571428571428,
+      "f1-score": 0.6333333333333333,
+      "support": 70.0
+    },
+    "T-shirt": {
+      "precision": 0.6036585365853658,
+      "recall": 0.668918918918919,
+      "f1-score": 0.6346153846153846,
+      "support": 148.0
+    },
+    "Tops": {
+      "precision": 0.6335403726708074,
+      "recall": 0.4533333333333333,
+      "f1-score": 0.5284974093264249,
+      "support": 225.0
+    }
+  },
+  "checkpoint": "models/category_scratch_best.pt"
+}
