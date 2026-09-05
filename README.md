@@ -25,7 +25,7 @@ Labele nisu crtane rukom. Izvedene su automatski iz zvaničnih pravila firme:
 - **Item Tree** → kategorija / podkategorija
 - **Paleta boja** → porodica boje
 
-**Rezultat labeliranja: 6742 slike, 0 neuparenih redova.**
+**Rezultat labeliranja: 6742 slike.**
 
 Ulazni Excel fajlovi (`exceli/`, `pravila/`) nisu u repozitorijumu (interni podaci).
 U repou su izvedeni podaci: `data/`, `dataset/labels.csv`, `dataset/images/`,
