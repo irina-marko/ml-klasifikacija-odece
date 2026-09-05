@@ -13,7 +13,7 @@ Pored klasičnog CNN-a implementiranog od nule (pristup sa vežbi), upoređen je
 ## Tim
 
 - Irina Marko (1134/2025)
-- Nikola Lazarević (mi251043)
+- Nikola Lazarević (1043/2025)
 
 ## Opis skupa podataka
 
